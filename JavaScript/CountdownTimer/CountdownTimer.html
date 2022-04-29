@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CountdownTimer</title>
+    <script src="CountdownTimer.js"></script>
+    <link rel="stylesheet" type="text/css" href="CountdownTimer.css">
+  </head>
+  <body>
+    <div class="parent">
+      <form name="MusicForm">
+        <select name="music" class="select_music">
+          <option value="おやすみDay">おやすみDay</option>
+          <option value="ぴよぴよサーキット">ぴよぴよサーキット</option>
+          <option value="海底の神殿">海底の神殿</option>
+        </select>
+      </form>
+      <form name="timer" id="timerform">
+        <input type="text" value="" class="min"><span>分</span>
+        <input type="text" value="" class="sec"><span>秒</span><br>
+        <input type="button" value="スタート" onclick="CountStart()" class="button">
+        <input type="button" value="ストップ" onclick="CountStop()" class="button">
+      </form>
+    </div>
+  </body>
+</html>

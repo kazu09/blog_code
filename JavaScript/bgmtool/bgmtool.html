@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BGMtools</title>
+    <script src="bgmtool.js"></script>
+    <link rel="stylesheet" type="text/css" href="bgmtool.css">
+  </head>
+  <body>
+    <div class="parent">
+      <div class="dova-syndrome">
+        <h2>BGMtools</h2>
+        <p>おやすみDay：<span class="dova_url">https://dova-s.jp/bgm/play15832.html</span></p>
+        <p>ぴよぴよサーキット：<span class="dova_url">https://dova-s.jp/bgm/play15795.html</span></p>
+        <p>海底の神殿：<span class="dova_url">https://dova-s.jp/bgm/play7690.html</span></p>
+        <form name="BGMForm">
+          <select name="bgm">
+            <option value="おやすみDay">おやすみDay</option>
+            <option value="ぴよぴよサーキット">ぴよぴよサーキット</option>
+            <option value="海底の神殿">海底の神殿</option>
+          </select>
+        </form>
+          <input type="image" class="button" src="img/再生ボタン.svg" id="playButton" onclick="bgmArray()">
+          <input type="image" class="button" src="img/再生停止ボタン.svg" id="stopButton" onclick="stop()" disabled>
+          <input type="image" class="button" src="img/一時停止.svg" id="pauseButton" onclick="pause()" disabled>
+          <input type="image" class="button" src="img/ボリュームオン.svg" id="mutedButton" onclick="muted()">
+          <input type="image" class="button" src="img/リピートオフ.svg" id="loopButton" onclick="loop()">
+      </div>
+    </div>
+  </body>
+</html>
