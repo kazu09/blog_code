@@ -1,7 +1,7 @@
 # Cal-nikki public tool 
 Thanks for watching<br>
 I've put together the code I wrote on my blog.<br>
-my brog URL : [https://calnikki.com](https://calnikki.com)
+my blog URL : [https://calnikki.com](https://calnikki.com)
 ## JavaScript 
 ### Development environment
 * browser
